@@ -1,0 +1,11 @@
+<li class="list-group-item">
+	<div class="h4">
+	{{burger_name}}	
+	</div> 
+
+	<button class="change-devour btn btn-sm btn-outline-dark" data-id="{{id}}" data-devour="{{devoured}}">
+		{{#if devoured}} <h6>Lets eat!</h6>{{else}} <h6>Seconds!</h6> {{/if}}
+	</button>
+
+	<button class="delete-burger btn btn-sm btn-outline-danger " data-id="{{this.id}}"> <h6>Delete!</h6> </button>
+</li>
